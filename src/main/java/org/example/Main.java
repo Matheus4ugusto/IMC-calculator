@@ -42,27 +42,27 @@ public class Main {
             return "Magreza grau III - Se bater vento voa...";
         }
 
-        if (imc >= 16 && imc <= 16.99) {
+        if (imc >= 16 && imc < 17) {
             return "Magreza grau II - Vai comer!";
         }
 
-        if (imc >= 17 && imc <= 18.4) {
+        if (imc >= 17 && imc < 18.5) {
             return "Magreza grau I - Faltou feijão aí?";
         }
 
-        if (imc >= 18.5 && imc <= 24.99) {
+        if (imc >= 18.5 && imc < 25) {
             return "Peso ideal - Parabéns";
         }
 
-        if (imc >= 25 && imc <= 29.99) {
+        if (imc >= 25 && imc < 30) {
             return "Sobrepeso - Cuidado, vai engordar.";
         }
 
-        if (imc >= 30 && imc <= 34.99) {
+        if (imc >= 30 && imc < 36) {
             return "Obesidade grau I - Está ficando perigoso.";
         }
 
-        if (imc >= 35 && imc <= 40) {
+        if (imc >= 35 && imc < 40.1) {
             return "Obesidade grau II - Vai fazer uma dieta.";
         }
 
